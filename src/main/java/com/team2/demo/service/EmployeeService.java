@@ -1,0 +1,73 @@
+package com.team2.demo.service;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.team2.demo.model.Employee;
+import com.team2.demo.repository.EmployeeRepository;
+
+//defining the business logic
+
+@Service
+public class EmployeeService {
+
+	private final Logger log = LoggerFactory.getLogger(EmployeeService.class);
+
+//	@Autowired
+	Employee employeeDummy = new Employee();
+
+	@Autowired
+	EmployeeRepository employeeRepository;
+
+//getting all Employee record by using the method findaAll() of CrudRepository
+
+	public List<Employee> getAllEmployees() {
+		log.info("getAllEmployees service");
+		List<Employee> employeesList = new ArrayList<Employee>();
+		employeeRepository.findAll().forEach(emp -> employeesList.add(emp));
+		return employeesList;
+	}
+
+//getting a specific record by using the method findById() of CrudRepository
+
+	public Employee getEmployeeById(int id) {
+		log.info("getEmployeeById service");
+		try {
+			return employeeRepository.findById(id).get();
+		} catch (Exception ex) {
+			log.error(id + " does not exist.");
+			return employeeDummy;
+		}
+	}
+
+// create a new employee record by using the custom method in the Repository
+
+	public Employee saveEmployee(Employee employee) {
+		return employeeRepository.save(employee);
+	}
+
+// updating a record
+
+	public Optional<Employee> update(Employee employee, int id) {
+		log.info("update service");
+		return employeeRepository.findById(id).map(emp -> { // add more logic
+			emp.setName(employee.getName()); // write all fields updates
+			return employeeRepository.save(emp);
+		});
+	}
+
+// deleting the specific record by using the method deleteById() of CrudRepository
+
+	public int delete(int id) {
+		log.info("delete service");
+		employeeRepository.deleteById(id);
+		return id;
+	}
+
+}

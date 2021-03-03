@@ -1,0 +1,1471 @@
+2021-03-03 10:49:57.818  INFO 30500 --- [restartedMain] com.team2.demo.ComTeam2DemoApplication   : Starting ComTeam2DemoApplication using Java 15.0.1 on USHYDSHRESSIV3 with PID 30500 (C:\Users\shressrivastava\Downloads\com-team2-demo\target\classes started by shressrivastava in C:\Users\shressrivastava\Downloads\com-team2-demo)
+2021-03-03 10:49:57.828  INFO 30500 --- [restartedMain] com.team2.demo.ComTeam2DemoApplication   : No active profile set, falling back to default profiles: default
+2021-03-03 10:49:57.934  INFO 30500 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\shressrivastava\.m2\repository\org\apache\derby\derby\10.14.2.0\derby-10.14.2.0.jar referenced one or more files that do not exist: file:/C:/Users/shressrivastava/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_cs.jar,file:/C:/Users/shressrivastava/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_de_DE.jar,file:/C:/Users/shressrivastava/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_es.jar,file:/C:/Users/shressrivastava/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_fr.jar,file:/C:/Users/shressrivastava/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_hu.jar,file:/C:/Users/shressrivastava/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_it.jar,file:/C:/Users/shressrivastava/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ja_JP.jar,file:/C:/Users/shressrivastava/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ko_KR.jar,file:/C:/Users/shressrivastava/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_pl.jar,file:/C:/Users/shressrivastava/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_pt_BR.jar,file:/C:/Users/shressrivastava/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ru.jar,file:/C:/Users/shressrivastava/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_zh_CN.jar,file:/C:/Users/shressrivastava/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_zh_TW.jar
+2021-03-03 10:49:57.935  INFO 30500 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-03 10:49:57.935  INFO 30500 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-03 10:49:58.918  INFO 30500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-03 10:49:59.021  INFO 30500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 88 ms. Found 1 JPA repository interfaces.
+2021-03-03 10:50:00.233  INFO 30500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8091 (http)
+2021-03-03 10:50:00.253  INFO 30500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-03 10:50:00.254  INFO 30500 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-03 10:50:00.595  INFO 30500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-03 10:50:00.596  INFO 30500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2660 ms
+2021-03-03 10:50:01.654  INFO 30500 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-03 10:50:01.781  INFO 30500 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-03 10:50:02.032  INFO 30500 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-03 10:50:02.179  INFO 30500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-03 10:50:02.184  WARN 30500 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2021-03-03 10:50:02.473  INFO 30500 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2021-03-03 10:50:02.476  INFO 30500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-03 10:50:02.500  INFO 30500 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyTenSevenDialect
+2021-03-03 10:50:03.472  INFO 30500 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-03 10:50:03.481  INFO 30500 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-03 10:50:03.505  INFO 30500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-03 10:50:03.895  WARN 30500 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-03 10:50:03.926  INFO 30500 --- [restartedMain] com.team2.demo.security.JwtUtil          : configureGlobal
+2021-03-03 10:50:03.967  INFO 30500 --- [restartedMain] com.team2.demo.security.JwtUtil          : authenticationManagerBean
+2021-03-03 10:50:04.112  INFO 30500 --- [restartedMain] com.team2.demo.security.JwtUtil          : configure
+2021-03-03 10:50:04.160  INFO 30500 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4334b502, org.springframework.security.web.context.SecurityContextPersistenceFilter@75fbf0b1, org.springframework.security.web.header.HeaderWriterFilter@3c02d6e, org.springframework.security.web.authentication.logout.LogoutFilter@1ec8e37e, com.team2.demo.security.UserRequestFilter@76ec5fb9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1672299e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@425eee75, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3821c413, org.springframework.security.web.session.SessionManagementFilter@d9130a3, org.springframework.security.web.access.ExceptionTranslationFilter@684554c4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1e7cbca3]
+2021-03-03 10:50:04.175  INFO 30500 --- [restartedMain] com.team2.demo.security.JwtUtil          : passwordEncoder
+2021-03-03 10:50:04.670  INFO 30500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8091 (http) with context path ''
+2021-03-03 10:50:04.684  INFO 30500 --- [restartedMain] com.team2.demo.ComTeam2DemoApplication   : Started ComTeam2DemoApplication in 7.378 seconds (JVM running for 8.258)
+2021-03-03 10:51:24.272  INFO 30500 --- [http-nio-8091-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-03 10:51:24.273  INFO 30500 --- [http-nio-8091-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-03 10:51:24.275  INFO 30500 --- [http-nio-8091-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-03-03 10:51:24.293  INFO 30500 --- [http-nio-8091-exec-1] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 10:51:24.294  INFO 30500 --- [http-nio-8091-exec-1] c.team2.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-03 10:51:24.335  INFO 30500 --- [http-nio-8091-exec-1] c.team2.demo.security.UserRequestFilter  : chain
+2021-03-03 10:51:24.340  INFO 30500 --- [http-nio-8091-exec-2] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 10:51:24.341  INFO 30500 --- [http-nio-8091-exec-2] c.team2.demo.security.UserRequestFilter  : authorizationHeader is null
+2021-03-03 10:51:24.341  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 10:51:24.342  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 10:51:24.342  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 10:51:24.377 ERROR 30500 --- [http-nio-8091-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+io.jsonwebtoken.MalformedJwtException: JWT strings must contain exactly 2 period characters. Found: 0
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:235) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541) ~[jjwt-0.9.1.jar:0.9.1]
+	at com.team2.demo.security.JwtUtil.extractAllClaims(JwtUtil.java:42) ~[classes/:na]
+	at com.team2.demo.security.JwtUtil.extractClaim(JwtUtil.java:36) ~[classes/:na]
+	at com.team2.demo.security.JwtUtil.extractUsername(JwtUtil.java:26) ~[classes/:na]
+	at com.team2.demo.security.UserRequestFilter.doFilterInternal(UserRequestFilter.java:44) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+
+2021-03-03 10:51:31.863  INFO 30500 --- [http-nio-8091-exec-3] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 10:51:31.864  INFO 30500 --- [http-nio-8091-exec-3] c.team2.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-03 10:51:31.866  INFO 30500 --- [http-nio-8091-exec-3] c.team2.demo.security.UserRequestFilter  : chain
+2021-03-03 10:51:31.868  INFO 30500 --- [http-nio-8091-exec-4] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 10:51:31.869  INFO 30500 --- [http-nio-8091-exec-4] c.team2.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-03 10:51:31.945  INFO 30500 --- [http-nio-8091-exec-4] c.team2.demo.controller.UserController   : login
+2021-03-03 10:51:31.949 ERROR 30500 --- [http-nio-8091-exec-4] c.team2.demo.controller.UserController   : Bad credentials
+2021-03-03 10:51:31.949  INFO 30500 --- [http-nio-8091-exec-4] c.team2.demo.controller.UserController   : user authenticated
+2021-03-03 10:51:31.949  INFO 30500 --- [http-nio-8091-exec-4] com.team2.demo.security.JwtUtil          : generateToken
+2021-03-03 10:51:31.949  INFO 30500 --- [http-nio-8091-exec-4] com.team2.demo.security.JwtUtil          : createToken
+2021-03-03 10:51:32.000  INFO 30500 --- [http-nio-8091-exec-4] com.team2.demo.security.JwtUtil          : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTYxNDc4NDg5MSwiaWF0IjoxNjE0NzQ4ODkxfQ.xsCqvq3i4d1qWVH0nmfJB7GS0OEhX3DArBHdC_tEJ00
+2021-03-03 10:51:32.007  INFO 30500 --- [http-nio-8091-exec-4] c.team2.demo.security.UserRequestFilter  : chain
+2021-03-03 10:51:41.123  INFO 30500 --- [http-nio-8091-exec-5] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 10:51:41.124  INFO 30500 --- [http-nio-8091-exec-5] c.team2.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-03 10:51:41.126  INFO 30500 --- [http-nio-8091-exec-5] c.team2.demo.controller.UserController   : login
+2021-03-03 10:51:41.127 ERROR 30500 --- [http-nio-8091-exec-5] c.team2.demo.controller.UserController   : Bad credentials
+2021-03-03 10:51:41.127  INFO 30500 --- [http-nio-8091-exec-5] c.team2.demo.controller.UserController   : user authenticated
+2021-03-03 10:51:41.127  INFO 30500 --- [http-nio-8091-exec-5] com.team2.demo.security.JwtUtil          : generateToken
+2021-03-03 10:51:41.127  INFO 30500 --- [http-nio-8091-exec-5] com.team2.demo.security.JwtUtil          : createToken
+2021-03-03 10:51:41.127  INFO 30500 --- [http-nio-8091-exec-5] com.team2.demo.security.JwtUtil          : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTYxNDc4NDkwMSwiaWF0IjoxNjE0NzQ4OTAxfQ.C7bo3jqj-_0B0m6_9AWDycuVEWJipzTbeiEiVtetG00
+2021-03-03 10:51:41.129  INFO 30500 --- [http-nio-8091-exec-5] c.team2.demo.security.UserRequestFilter  : chain
+2021-03-03 10:51:42.135  INFO 30500 --- [http-nio-8091-exec-6] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 10:51:42.135  INFO 30500 --- [http-nio-8091-exec-6] c.team2.demo.security.UserRequestFilter  : authorizationHeader is null
+2021-03-03 10:51:42.136  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 10:51:42.136  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 10:51:42.136  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 10:51:42.153  INFO 30500 --- [http-nio-8091-exec-6] c.team2.demo.security.UserRequestFilter  : username is null
+2021-03-03 10:51:42.153  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.security.JwtUtil          : validateToken
+2021-03-03 10:51:42.153  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 10:51:42.153  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 10:51:42.153  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 10:51:42.154  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.security.JwtUtil          : isTokenExpired
+2021-03-03 10:51:42.154  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.security.JwtUtil          : extractExpiration
+2021-03-03 10:51:42.154  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 10:51:42.154  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 10:51:42.155  INFO 30500 --- [http-nio-8091-exec-6] c.team2.demo.security.UserRequestFilter  : userDetails extracted
+2021-03-03 10:51:42.155  INFO 30500 --- [http-nio-8091-exec-6] c.team2.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-03 10:51:42.157  INFO 30500 --- [http-nio-8091-exec-6] c.t.demo.controller.EmployeeController   : getAllEmployees controller
+2021-03-03 10:51:42.157  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.service.EmployeeService   : getAllEmployees service
+2021-03-03 10:51:42.336  INFO 30500 --- [http-nio-8091-exec-6] c.team2.demo.security.UserRequestFilter  : chain
+2021-03-03 10:52:04.503  INFO 30500 --- [http-nio-8091-exec-7] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 10:52:04.504  INFO 30500 --- [http-nio-8091-exec-7] c.team2.demo.security.UserRequestFilter  : authorizationHeader is null
+2021-03-03 10:52:04.504  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 10:52:04.505  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 10:52:04.505  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 10:52:04.506  INFO 30500 --- [http-nio-8091-exec-7] c.team2.demo.security.UserRequestFilter  : username is null
+2021-03-03 10:52:04.507  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : validateToken
+2021-03-03 10:52:04.507  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 10:52:04.507  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 10:52:04.507  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 10:52:04.508  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : isTokenExpired
+2021-03-03 10:52:04.509  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : extractExpiration
+2021-03-03 10:52:04.509  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 10:52:04.509  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 10:52:04.511  INFO 30500 --- [http-nio-8091-exec-7] c.team2.demo.security.UserRequestFilter  : userDetails extracted
+2021-03-03 10:52:04.511  INFO 30500 --- [http-nio-8091-exec-7] c.team2.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-03 10:52:04.513  INFO 30500 --- [http-nio-8091-exec-7] c.t.demo.controller.EmployeeController   : getAllEmployees controller
+2021-03-03 10:52:04.514  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.service.EmployeeService   : getAllEmployees service
+2021-03-03 10:52:04.518  INFO 30500 --- [http-nio-8091-exec-7] c.team2.demo.security.UserRequestFilter  : chain
+2021-03-03 10:57:54.459  INFO 30500 --- [http-nio-8091-exec-9] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 10:57:54.460  INFO 30500 --- [http-nio-8091-exec-9] c.team2.demo.security.UserRequestFilter  : authorizationHeader is null
+2021-03-03 10:57:54.460  INFO 30500 --- [http-nio-8091-exec-9] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 10:57:54.460  INFO 30500 --- [http-nio-8091-exec-9] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 10:57:54.460  INFO 30500 --- [http-nio-8091-exec-9] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 10:57:54.461 ERROR 30500 --- [http-nio-8091-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+io.jsonwebtoken.MalformedJwtException: JWT strings must contain exactly 2 period characters. Found: 0
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:235) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541) ~[jjwt-0.9.1.jar:0.9.1]
+	at com.team2.demo.security.JwtUtil.extractAllClaims(JwtUtil.java:42) ~[classes/:na]
+	at com.team2.demo.security.JwtUtil.extractClaim(JwtUtil.java:36) ~[classes/:na]
+	at com.team2.demo.security.JwtUtil.extractUsername(JwtUtil.java:26) ~[classes/:na]
+	at com.team2.demo.security.UserRequestFilter.doFilterInternal(UserRequestFilter.java:44) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+
+2021-03-03 10:58:05.107  INFO 30500 --- [http-nio-8091-exec-1] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 10:58:05.108  INFO 30500 --- [http-nio-8091-exec-1] c.team2.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-03 10:58:05.110  INFO 30500 --- [http-nio-8091-exec-1] c.team2.demo.controller.UserController   : login
+2021-03-03 10:58:05.111 ERROR 30500 --- [http-nio-8091-exec-1] c.team2.demo.controller.UserController   : Bad credentials
+2021-03-03 10:58:05.111  INFO 30500 --- [http-nio-8091-exec-1] c.team2.demo.controller.UserController   : user authenticated
+2021-03-03 10:58:05.111  INFO 30500 --- [http-nio-8091-exec-1] com.team2.demo.security.JwtUtil          : generateToken
+2021-03-03 10:58:05.111  INFO 30500 --- [http-nio-8091-exec-1] com.team2.demo.security.JwtUtil          : createToken
+2021-03-03 10:58:05.113  INFO 30500 --- [http-nio-8091-exec-1] com.team2.demo.security.JwtUtil          : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTYxNDc4NTI4NSwiaWF0IjoxNjE0NzQ5Mjg1fQ.MruVrC0OEUDHt4mFXmdwIzCSUyU3IPfayDkgvORuGxQ
+2021-03-03 10:58:05.116  INFO 30500 --- [http-nio-8091-exec-1] c.team2.demo.security.UserRequestFilter  : chain
+2021-03-03 10:58:06.459  INFO 30500 --- [http-nio-8091-exec-2] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 10:58:06.459  INFO 30500 --- [http-nio-8091-exec-2] c.team2.demo.security.UserRequestFilter  : authorizationHeader is null
+2021-03-03 10:58:06.460  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 10:58:06.460  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 10:58:06.460  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 10:58:06.461  INFO 30500 --- [http-nio-8091-exec-2] c.team2.demo.security.UserRequestFilter  : username is null
+2021-03-03 10:58:06.461  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.security.JwtUtil          : validateToken
+2021-03-03 10:58:06.461  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 10:58:06.461  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 10:58:06.461  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 10:58:06.461  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.security.JwtUtil          : isTokenExpired
+2021-03-03 10:58:06.462  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.security.JwtUtil          : extractExpiration
+2021-03-03 10:58:06.462  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 10:58:06.462  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 10:58:06.463  INFO 30500 --- [http-nio-8091-exec-2] c.team2.demo.security.UserRequestFilter  : userDetails extracted
+2021-03-03 10:58:06.463  INFO 30500 --- [http-nio-8091-exec-2] c.team2.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-03 10:58:06.465  INFO 30500 --- [http-nio-8091-exec-2] c.t.demo.controller.EmployeeController   : getAllEmployees controller
+2021-03-03 10:58:06.465  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.service.EmployeeService   : getAllEmployees service
+2021-03-03 10:58:06.471  INFO 30500 --- [http-nio-8091-exec-2] c.team2.demo.security.UserRequestFilter  : chain
+2021-03-03 10:58:20.258  INFO 30500 --- [http-nio-8091-exec-5] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 10:58:20.258  INFO 30500 --- [http-nio-8091-exec-5] c.team2.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-03 10:58:20.259  INFO 30500 --- [http-nio-8091-exec-5] c.team2.demo.controller.UserController   : login
+2021-03-03 10:58:20.260 ERROR 30500 --- [http-nio-8091-exec-5] c.team2.demo.controller.UserController   : Bad credentials
+2021-03-03 10:58:20.260  INFO 30500 --- [http-nio-8091-exec-5] c.team2.demo.controller.UserController   : user authenticated
+2021-03-03 10:58:20.260  INFO 30500 --- [http-nio-8091-exec-5] com.team2.demo.security.JwtUtil          : generateToken
+2021-03-03 10:58:20.260  INFO 30500 --- [http-nio-8091-exec-5] com.team2.demo.security.JwtUtil          : createToken
+2021-03-03 10:58:20.260  INFO 30500 --- [http-nio-8091-exec-5] com.team2.demo.security.JwtUtil          : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTYxNDc4NTMwMCwiaWF0IjoxNjE0NzQ5MzAwfQ.pGbzLsR_gRIFKOl-Aw7zdt07F6E-AyXMfKv82g9po84
+2021-03-03 10:58:20.261  INFO 30500 --- [http-nio-8091-exec-5] c.team2.demo.security.UserRequestFilter  : chain
+2021-03-03 10:58:55.807  INFO 30500 --- [http-nio-8091-exec-6] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 10:58:55.808  INFO 30500 --- [http-nio-8091-exec-6] c.team2.demo.security.UserRequestFilter  : authorizationHeader is null
+2021-03-03 10:58:55.808  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 10:58:55.808  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 10:58:55.808  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 10:58:55.809  INFO 30500 --- [http-nio-8091-exec-6] c.team2.demo.security.UserRequestFilter  : username is null
+2021-03-03 10:58:55.809  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.security.JwtUtil          : validateToken
+2021-03-03 10:58:55.809  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 10:58:55.809  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 10:58:55.809  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 10:58:55.809  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.security.JwtUtil          : isTokenExpired
+2021-03-03 10:58:55.809  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.security.JwtUtil          : extractExpiration
+2021-03-03 10:58:55.809  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 10:58:55.809  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 10:58:55.810  INFO 30500 --- [http-nio-8091-exec-6] c.team2.demo.security.UserRequestFilter  : userDetails extracted
+2021-03-03 10:58:55.810  INFO 30500 --- [http-nio-8091-exec-6] c.team2.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-03 10:58:55.811  INFO 30500 --- [http-nio-8091-exec-6] c.t.demo.controller.EmployeeController   : getAllEmployees controller
+2021-03-03 10:58:55.811  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.service.EmployeeService   : getAllEmployees service
+2021-03-03 10:58:55.814  INFO 30500 --- [http-nio-8091-exec-6] c.team2.demo.security.UserRequestFilter  : chain
+2021-03-03 10:59:05.077  INFO 30500 --- [http-nio-8091-exec-7] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 10:59:05.077  INFO 30500 --- [http-nio-8091-exec-7] c.team2.demo.security.UserRequestFilter  : authorizationHeader is null
+2021-03-03 10:59:05.077  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 10:59:05.078  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 10:59:05.078  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 10:59:05.078  INFO 30500 --- [http-nio-8091-exec-7] c.team2.demo.security.UserRequestFilter  : username is null
+2021-03-03 10:59:05.078  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : validateToken
+2021-03-03 10:59:05.078  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 10:59:05.078  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 10:59:05.078  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 10:59:05.079  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : isTokenExpired
+2021-03-03 10:59:05.079  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : extractExpiration
+2021-03-03 10:59:05.079  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 10:59:05.079  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 10:59:05.080  INFO 30500 --- [http-nio-8091-exec-7] c.team2.demo.security.UserRequestFilter  : userDetails extracted
+2021-03-03 10:59:05.080  INFO 30500 --- [http-nio-8091-exec-7] c.team2.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-03 10:59:05.086  INFO 30500 --- [http-nio-8091-exec-7] c.t.demo.controller.EmployeeController   : deleteEmployee controller
+2021-03-03 10:59:05.087  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.service.EmployeeService   : delete service
+2021-03-03 10:59:05.198  INFO 30500 --- [http-nio-8091-exec-7] c.team2.demo.security.UserRequestFilter  : chain
+2021-03-03 10:59:10.677  INFO 30500 --- [http-nio-8091-exec-8] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 10:59:10.678  INFO 30500 --- [http-nio-8091-exec-8] c.team2.demo.security.UserRequestFilter  : authorizationHeader is null
+2021-03-03 10:59:10.678  INFO 30500 --- [http-nio-8091-exec-8] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 10:59:10.678  INFO 30500 --- [http-nio-8091-exec-8] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 10:59:10.678  INFO 30500 --- [http-nio-8091-exec-8] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 10:59:10.679  INFO 30500 --- [http-nio-8091-exec-8] c.team2.demo.security.UserRequestFilter  : username is null
+2021-03-03 10:59:10.679  INFO 30500 --- [http-nio-8091-exec-8] com.team2.demo.security.JwtUtil          : validateToken
+2021-03-03 10:59:10.679  INFO 30500 --- [http-nio-8091-exec-8] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 10:59:10.679  INFO 30500 --- [http-nio-8091-exec-8] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 10:59:10.680  INFO 30500 --- [http-nio-8091-exec-8] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 10:59:10.681  INFO 30500 --- [http-nio-8091-exec-8] com.team2.demo.security.JwtUtil          : isTokenExpired
+2021-03-03 10:59:10.681  INFO 30500 --- [http-nio-8091-exec-8] com.team2.demo.security.JwtUtil          : extractExpiration
+2021-03-03 10:59:10.681  INFO 30500 --- [http-nio-8091-exec-8] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 10:59:10.681  INFO 30500 --- [http-nio-8091-exec-8] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 10:59:10.682  INFO 30500 --- [http-nio-8091-exec-8] c.team2.demo.security.UserRequestFilter  : userDetails extracted
+2021-03-03 10:59:10.683  INFO 30500 --- [http-nio-8091-exec-8] c.team2.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-03 10:59:10.685  INFO 30500 --- [http-nio-8091-exec-8] c.t.demo.controller.EmployeeController   : getAllEmployees controller
+2021-03-03 10:59:10.685  INFO 30500 --- [http-nio-8091-exec-8] com.team2.demo.service.EmployeeService   : getAllEmployees service
+2021-03-03 10:59:10.690  INFO 30500 --- [http-nio-8091-exec-8] c.team2.demo.security.UserRequestFilter  : chain
+2021-03-03 11:00:52.590  INFO 30500 --- [http-nio-8091-exec-10] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 11:00:52.590  INFO 30500 --- [http-nio-8091-exec-10] c.team2.demo.security.UserRequestFilter  : authorizationHeader is null
+2021-03-03 11:00:52.590  INFO 30500 --- [http-nio-8091-exec-10] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 11:00:52.590  INFO 30500 --- [http-nio-8091-exec-10] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:00:52.590  INFO 30500 --- [http-nio-8091-exec-10] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:00:52.591 ERROR 30500 --- [http-nio-8091-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+io.jsonwebtoken.MalformedJwtException: JWT strings must contain exactly 2 period characters. Found: 0
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:235) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541) ~[jjwt-0.9.1.jar:0.9.1]
+	at com.team2.demo.security.JwtUtil.extractAllClaims(JwtUtil.java:42) ~[classes/:na]
+	at com.team2.demo.security.JwtUtil.extractClaim(JwtUtil.java:36) ~[classes/:na]
+	at com.team2.demo.security.JwtUtil.extractUsername(JwtUtil.java:26) ~[classes/:na]
+	at com.team2.demo.security.UserRequestFilter.doFilterInternal(UserRequestFilter.java:44) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+
+2021-03-03 11:02:19.250  INFO 30500 --- [http-nio-8091-exec-2] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 11:02:19.251  INFO 30500 --- [http-nio-8091-exec-2] c.team2.demo.security.UserRequestFilter  : authorizationHeader is null
+2021-03-03 11:02:19.251  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 11:02:19.251  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:02:19.251  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:02:19.251 ERROR 30500 --- [http-nio-8091-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+io.jsonwebtoken.MalformedJwtException: JWT strings must contain exactly 2 period characters. Found: 0
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:235) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541) ~[jjwt-0.9.1.jar:0.9.1]
+	at com.team2.demo.security.JwtUtil.extractAllClaims(JwtUtil.java:42) ~[classes/:na]
+	at com.team2.demo.security.JwtUtil.extractClaim(JwtUtil.java:36) ~[classes/:na]
+	at com.team2.demo.security.JwtUtil.extractUsername(JwtUtil.java:26) ~[classes/:na]
+	at com.team2.demo.security.UserRequestFilter.doFilterInternal(UserRequestFilter.java:44) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+
+2021-03-03 11:03:57.646  INFO 30500 --- [http-nio-8091-exec-4] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 11:03:57.647  INFO 30500 --- [http-nio-8091-exec-4] c.team2.demo.security.UserRequestFilter  : authorizationHeader is null
+2021-03-03 11:03:57.647  INFO 30500 --- [http-nio-8091-exec-4] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 11:03:57.648  INFO 30500 --- [http-nio-8091-exec-4] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:03:57.648  INFO 30500 --- [http-nio-8091-exec-4] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:03:57.648 ERROR 30500 --- [http-nio-8091-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+io.jsonwebtoken.MalformedJwtException: JWT strings must contain exactly 2 period characters. Found: 0
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:235) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541) ~[jjwt-0.9.1.jar:0.9.1]
+	at com.team2.demo.security.JwtUtil.extractAllClaims(JwtUtil.java:42) ~[classes/:na]
+	at com.team2.demo.security.JwtUtil.extractClaim(JwtUtil.java:36) ~[classes/:na]
+	at com.team2.demo.security.JwtUtil.extractUsername(JwtUtil.java:26) ~[classes/:na]
+	at com.team2.demo.security.UserRequestFilter.doFilterInternal(UserRequestFilter.java:44) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+
+2021-03-03 11:04:05.517  INFO 30500 --- [http-nio-8091-exec-6] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 11:04:05.518  INFO 30500 --- [http-nio-8091-exec-6] c.team2.demo.security.UserRequestFilter  : authorizationHeader is null
+2021-03-03 11:04:05.518  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 11:04:05.518  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:04:05.518  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:04:05.519 ERROR 30500 --- [http-nio-8091-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+io.jsonwebtoken.MalformedJwtException: JWT strings must contain exactly 2 period characters. Found: 0
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:235) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541) ~[jjwt-0.9.1.jar:0.9.1]
+	at com.team2.demo.security.JwtUtil.extractAllClaims(JwtUtil.java:42) ~[classes/:na]
+	at com.team2.demo.security.JwtUtil.extractClaim(JwtUtil.java:36) ~[classes/:na]
+	at com.team2.demo.security.JwtUtil.extractUsername(JwtUtil.java:26) ~[classes/:na]
+	at com.team2.demo.security.UserRequestFilter.doFilterInternal(UserRequestFilter.java:44) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+
+2021-03-03 11:07:23.614  INFO 30500 --- [http-nio-8091-exec-8] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 11:07:23.615  INFO 30500 --- [http-nio-8091-exec-8] c.team2.demo.security.UserRequestFilter  : authorizationHeader is null
+2021-03-03 11:07:23.615  INFO 30500 --- [http-nio-8091-exec-8] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 11:07:23.615  INFO 30500 --- [http-nio-8091-exec-8] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:07:23.615  INFO 30500 --- [http-nio-8091-exec-8] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:07:23.616 ERROR 30500 --- [http-nio-8091-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+io.jsonwebtoken.MalformedJwtException: JWT strings must contain exactly 2 period characters. Found: 0
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:235) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541) ~[jjwt-0.9.1.jar:0.9.1]
+	at com.team2.demo.security.JwtUtil.extractAllClaims(JwtUtil.java:42) ~[classes/:na]
+	at com.team2.demo.security.JwtUtil.extractClaim(JwtUtil.java:36) ~[classes/:na]
+	at com.team2.demo.security.JwtUtil.extractUsername(JwtUtil.java:26) ~[classes/:na]
+	at com.team2.demo.security.UserRequestFilter.doFilterInternal(UserRequestFilter.java:44) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+
+2021-03-03 11:07:33.782  INFO 30500 --- [http-nio-8091-exec-10] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 11:07:33.783  INFO 30500 --- [http-nio-8091-exec-10] c.team2.demo.security.UserRequestFilter  : authorizationHeader is null
+2021-03-03 11:07:33.783  INFO 30500 --- [http-nio-8091-exec-10] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 11:07:33.783  INFO 30500 --- [http-nio-8091-exec-10] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:07:33.783  INFO 30500 --- [http-nio-8091-exec-10] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:07:33.785 ERROR 30500 --- [http-nio-8091-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+io.jsonwebtoken.MalformedJwtException: JWT strings must contain exactly 2 period characters. Found: 0
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:235) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541) ~[jjwt-0.9.1.jar:0.9.1]
+	at com.team2.demo.security.JwtUtil.extractAllClaims(JwtUtil.java:42) ~[classes/:na]
+	at com.team2.demo.security.JwtUtil.extractClaim(JwtUtil.java:36) ~[classes/:na]
+	at com.team2.demo.security.JwtUtil.extractUsername(JwtUtil.java:26) ~[classes/:na]
+	at com.team2.demo.security.UserRequestFilter.doFilterInternal(UserRequestFilter.java:44) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+
+2021-03-03 11:07:49.336  INFO 30500 --- [http-nio-8091-exec-2] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 11:07:49.336  INFO 30500 --- [http-nio-8091-exec-2] c.team2.demo.security.UserRequestFilter  : authorizationHeader is null
+2021-03-03 11:07:49.337  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 11:07:49.337  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:07:49.337  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:07:49.338 ERROR 30500 --- [http-nio-8091-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+io.jsonwebtoken.MalformedJwtException: JWT strings must contain exactly 2 period characters. Found: 0
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:235) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541) ~[jjwt-0.9.1.jar:0.9.1]
+	at com.team2.demo.security.JwtUtil.extractAllClaims(JwtUtil.java:42) ~[classes/:na]
+	at com.team2.demo.security.JwtUtil.extractClaim(JwtUtil.java:36) ~[classes/:na]
+	at com.team2.demo.security.JwtUtil.extractUsername(JwtUtil.java:26) ~[classes/:na]
+	at com.team2.demo.security.UserRequestFilter.doFilterInternal(UserRequestFilter.java:44) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+
+2021-03-03 11:08:14.342  INFO 30500 --- [http-nio-8091-exec-4] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 11:08:14.343  INFO 30500 --- [http-nio-8091-exec-4] c.team2.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-03 11:08:14.345  INFO 30500 --- [http-nio-8091-exec-4] c.team2.demo.controller.UserController   : login
+2021-03-03 11:08:14.346 ERROR 30500 --- [http-nio-8091-exec-4] c.team2.demo.controller.UserController   : Bad credentials
+2021-03-03 11:08:14.346  INFO 30500 --- [http-nio-8091-exec-4] c.team2.demo.controller.UserController   : user authenticated
+2021-03-03 11:08:14.347  INFO 30500 --- [http-nio-8091-exec-4] com.team2.demo.security.JwtUtil          : generateToken
+2021-03-03 11:08:14.347  INFO 30500 --- [http-nio-8091-exec-4] com.team2.demo.security.JwtUtil          : createToken
+2021-03-03 11:08:14.347  INFO 30500 --- [http-nio-8091-exec-4] com.team2.demo.security.JwtUtil          : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTYxNDc4NTg5NCwiaWF0IjoxNjE0NzQ5ODk0fQ.GWNYW6zq41Byc3FzOYkPmCuStQ1sBcwH-HEirJwtPmk
+2021-03-03 11:08:14.352  INFO 30500 --- [http-nio-8091-exec-4] c.team2.demo.security.UserRequestFilter  : chain
+2021-03-03 11:08:14.355  INFO 30500 --- [http-nio-8091-exec-5] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 11:08:14.355  INFO 30500 --- [http-nio-8091-exec-5] c.team2.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-03 11:08:14.358  INFO 30500 --- [http-nio-8091-exec-5] c.team2.demo.security.UserRequestFilter  : chain
+2021-03-03 11:08:14.362  INFO 30500 --- [http-nio-8091-exec-6] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 11:08:14.366  INFO 30500 --- [http-nio-8091-exec-6] c.team2.demo.security.UserRequestFilter  : authorizationHeader is null
+2021-03-03 11:08:14.366  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 11:08:14.366  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:08:14.366  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:08:14.368  INFO 30500 --- [http-nio-8091-exec-6] c.team2.demo.security.UserRequestFilter  : username is null
+2021-03-03 11:08:14.369  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.security.JwtUtil          : validateToken
+2021-03-03 11:08:14.369  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 11:08:14.369  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:08:14.369  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:08:14.370  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.security.JwtUtil          : isTokenExpired
+2021-03-03 11:08:14.370  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.security.JwtUtil          : extractExpiration
+2021-03-03 11:08:14.370  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:08:14.370  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:08:14.371  INFO 30500 --- [http-nio-8091-exec-6] c.team2.demo.security.UserRequestFilter  : userDetails extracted
+2021-03-03 11:08:14.371  INFO 30500 --- [http-nio-8091-exec-6] c.team2.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-03 11:08:14.375  INFO 30500 --- [http-nio-8091-exec-6] c.t.demo.controller.EmployeeController   : createEmployee controller
+2021-03-03 11:08:14.420  INFO 30500 --- [http-nio-8091-exec-6] c.team2.demo.security.UserRequestFilter  : chain
+2021-03-03 11:08:16.858  INFO 30500 --- [http-nio-8091-exec-7] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 11:08:16.859  INFO 30500 --- [http-nio-8091-exec-7] c.team2.demo.security.UserRequestFilter  : authorizationHeader is null
+2021-03-03 11:08:16.859  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 11:08:16.859  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:08:16.859  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:08:16.859  INFO 30500 --- [http-nio-8091-exec-7] c.team2.demo.security.UserRequestFilter  : username is null
+2021-03-03 11:08:16.859  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : validateToken
+2021-03-03 11:08:16.860  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 11:08:16.860  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:08:16.860  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:08:16.861  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : isTokenExpired
+2021-03-03 11:08:16.861  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : extractExpiration
+2021-03-03 11:08:16.861  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:08:16.861  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:08:16.862  INFO 30500 --- [http-nio-8091-exec-7] c.team2.demo.security.UserRequestFilter  : userDetails extracted
+2021-03-03 11:08:16.862  INFO 30500 --- [http-nio-8091-exec-7] c.team2.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-03 11:08:16.863  INFO 30500 --- [http-nio-8091-exec-7] c.t.demo.controller.EmployeeController   : getAllEmployees controller
+2021-03-03 11:08:16.863  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.service.EmployeeService   : getAllEmployees service
+2021-03-03 11:08:16.869  INFO 30500 --- [http-nio-8091-exec-7] c.team2.demo.security.UserRequestFilter  : chain
+2021-03-03 11:08:56.015  INFO 30500 --- [http-nio-8091-exec-9] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 11:08:56.016  INFO 30500 --- [http-nio-8091-exec-9] c.team2.demo.security.UserRequestFilter  : authorizationHeader is null
+2021-03-03 11:08:56.016  INFO 30500 --- [http-nio-8091-exec-9] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 11:08:56.016  INFO 30500 --- [http-nio-8091-exec-9] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:08:56.017  INFO 30500 --- [http-nio-8091-exec-9] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:08:56.018 ERROR 30500 --- [http-nio-8091-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+io.jsonwebtoken.MalformedJwtException: JWT strings must contain exactly 2 period characters. Found: 0
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:235) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541) ~[jjwt-0.9.1.jar:0.9.1]
+	at com.team2.demo.security.JwtUtil.extractAllClaims(JwtUtil.java:42) ~[classes/:na]
+	at com.team2.demo.security.JwtUtil.extractClaim(JwtUtil.java:36) ~[classes/:na]
+	at com.team2.demo.security.JwtUtil.extractUsername(JwtUtil.java:26) ~[classes/:na]
+	at com.team2.demo.security.UserRequestFilter.doFilterInternal(UserRequestFilter.java:44) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+
+2021-03-03 11:09:06.780  INFO 30500 --- [http-nio-8091-exec-1] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 11:09:06.781  INFO 30500 --- [http-nio-8091-exec-1] c.team2.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-03 11:09:06.784  INFO 30500 --- [http-nio-8091-exec-1] c.team2.demo.controller.UserController   : login
+2021-03-03 11:09:06.784 ERROR 30500 --- [http-nio-8091-exec-1] c.team2.demo.controller.UserController   : Bad credentials
+2021-03-03 11:09:06.784  INFO 30500 --- [http-nio-8091-exec-1] c.team2.demo.controller.UserController   : user authenticated
+2021-03-03 11:09:06.784  INFO 30500 --- [http-nio-8091-exec-1] com.team2.demo.security.JwtUtil          : generateToken
+2021-03-03 11:09:06.785  INFO 30500 --- [http-nio-8091-exec-1] com.team2.demo.security.JwtUtil          : createToken
+2021-03-03 11:09:06.785  INFO 30500 --- [http-nio-8091-exec-1] com.team2.demo.security.JwtUtil          : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTYxNDc4NTk0NiwiaWF0IjoxNjE0NzQ5OTQ2fQ.1P0CWYg27xZLamD3suAR_NTTTmZpFRbVf7qnUU0oAx0
+2021-03-03 11:09:06.787  INFO 30500 --- [http-nio-8091-exec-1] c.team2.demo.security.UserRequestFilter  : chain
+2021-03-03 11:09:09.582  INFO 30500 --- [http-nio-8091-exec-2] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 11:09:09.583  INFO 30500 --- [http-nio-8091-exec-2] c.team2.demo.security.UserRequestFilter  : authorizationHeader is null
+2021-03-03 11:09:09.583  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 11:09:09.583  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:09:09.583  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:09:09.584  INFO 30500 --- [http-nio-8091-exec-2] c.team2.demo.security.UserRequestFilter  : username is null
+2021-03-03 11:09:09.585  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.security.JwtUtil          : validateToken
+2021-03-03 11:09:09.585  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 11:09:09.585  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:09:09.585  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:09:09.586  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.security.JwtUtil          : isTokenExpired
+2021-03-03 11:09:09.586  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.security.JwtUtil          : extractExpiration
+2021-03-03 11:09:09.586  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:09:09.586  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:09:09.587  INFO 30500 --- [http-nio-8091-exec-2] c.team2.demo.security.UserRequestFilter  : userDetails extracted
+2021-03-03 11:09:09.587  INFO 30500 --- [http-nio-8091-exec-2] c.team2.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-03 11:09:09.589  INFO 30500 --- [http-nio-8091-exec-2] c.t.demo.controller.EmployeeController   : getAllEmployees controller
+2021-03-03 11:09:09.590  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.service.EmployeeService   : getAllEmployees service
+2021-03-03 11:09:09.597  INFO 30500 --- [http-nio-8091-exec-2] c.team2.demo.security.UserRequestFilter  : chain
+2021-03-03 11:09:16.182  INFO 30500 --- [http-nio-8091-exec-4] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 11:09:16.182  INFO 30500 --- [http-nio-8091-exec-4] c.team2.demo.security.UserRequestFilter  : authorizationHeader is null
+2021-03-03 11:09:16.183  INFO 30500 --- [http-nio-8091-exec-4] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 11:09:16.183  INFO 30500 --- [http-nio-8091-exec-4] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:09:16.183  INFO 30500 --- [http-nio-8091-exec-4] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:09:16.183  INFO 30500 --- [http-nio-8091-exec-4] c.team2.demo.security.UserRequestFilter  : username is null
+2021-03-03 11:09:16.184  INFO 30500 --- [http-nio-8091-exec-4] com.team2.demo.security.JwtUtil          : validateToken
+2021-03-03 11:09:16.184  INFO 30500 --- [http-nio-8091-exec-4] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 11:09:16.184  INFO 30500 --- [http-nio-8091-exec-4] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:09:16.184  INFO 30500 --- [http-nio-8091-exec-4] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:09:16.185  INFO 30500 --- [http-nio-8091-exec-4] com.team2.demo.security.JwtUtil          : isTokenExpired
+2021-03-03 11:09:16.185  INFO 30500 --- [http-nio-8091-exec-4] com.team2.demo.security.JwtUtil          : extractExpiration
+2021-03-03 11:09:16.185  INFO 30500 --- [http-nio-8091-exec-4] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:09:16.185  INFO 30500 --- [http-nio-8091-exec-4] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:09:16.187  INFO 30500 --- [http-nio-8091-exec-4] c.team2.demo.security.UserRequestFilter  : userDetails extracted
+2021-03-03 11:09:16.187  INFO 30500 --- [http-nio-8091-exec-4] c.team2.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-03 11:09:16.188  INFO 30500 --- [http-nio-8091-exec-4] c.t.demo.controller.EmployeeController   : getAllEmployees controller
+2021-03-03 11:09:16.189  INFO 30500 --- [http-nio-8091-exec-4] com.team2.demo.service.EmployeeService   : getAllEmployees service
+2021-03-03 11:09:16.195  INFO 30500 --- [http-nio-8091-exec-4] c.team2.demo.security.UserRequestFilter  : chain
+2021-03-03 11:09:18.166  INFO 30500 --- [http-nio-8091-exec-5] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 11:09:18.167  INFO 30500 --- [http-nio-8091-exec-5] c.team2.demo.security.UserRequestFilter  : authorizationHeader is null
+2021-03-03 11:09:18.167  INFO 30500 --- [http-nio-8091-exec-5] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 11:09:18.167  INFO 30500 --- [http-nio-8091-exec-5] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:09:18.167  INFO 30500 --- [http-nio-8091-exec-5] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:09:18.168  INFO 30500 --- [http-nio-8091-exec-5] c.team2.demo.security.UserRequestFilter  : username is null
+2021-03-03 11:09:18.168  INFO 30500 --- [http-nio-8091-exec-5] com.team2.demo.security.JwtUtil          : validateToken
+2021-03-03 11:09:18.169  INFO 30500 --- [http-nio-8091-exec-5] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 11:09:18.169  INFO 30500 --- [http-nio-8091-exec-5] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:09:18.169  INFO 30500 --- [http-nio-8091-exec-5] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:09:18.170  INFO 30500 --- [http-nio-8091-exec-5] com.team2.demo.security.JwtUtil          : isTokenExpired
+2021-03-03 11:09:18.170  INFO 30500 --- [http-nio-8091-exec-5] com.team2.demo.security.JwtUtil          : extractExpiration
+2021-03-03 11:09:18.170  INFO 30500 --- [http-nio-8091-exec-5] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:09:18.170  INFO 30500 --- [http-nio-8091-exec-5] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:09:18.171  INFO 30500 --- [http-nio-8091-exec-5] c.team2.demo.security.UserRequestFilter  : userDetails extracted
+2021-03-03 11:09:18.171  INFO 30500 --- [http-nio-8091-exec-5] c.team2.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-03 11:09:18.172  INFO 30500 --- [http-nio-8091-exec-5] c.t.demo.controller.EmployeeController   : getAllEmployees controller
+2021-03-03 11:09:18.172  INFO 30500 --- [http-nio-8091-exec-5] com.team2.demo.service.EmployeeService   : getAllEmployees service
+2021-03-03 11:09:18.178  INFO 30500 --- [http-nio-8091-exec-5] c.team2.demo.security.UserRequestFilter  : chain
+2021-03-03 11:09:30.385  INFO 30500 --- [http-nio-8091-exec-7] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 11:09:30.385  INFO 30500 --- [http-nio-8091-exec-7] c.team2.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-03 11:09:30.388  INFO 30500 --- [http-nio-8091-exec-7] c.team2.demo.controller.UserController   : login
+2021-03-03 11:09:30.388 ERROR 30500 --- [http-nio-8091-exec-7] c.team2.demo.controller.UserController   : Bad credentials
+2021-03-03 11:09:30.388  INFO 30500 --- [http-nio-8091-exec-7] c.team2.demo.controller.UserController   : user authenticated
+2021-03-03 11:09:30.388  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : generateToken
+2021-03-03 11:09:30.388  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : createToken
+2021-03-03 11:09:30.389  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTYxNDc4NTk3MCwiaWF0IjoxNjE0NzQ5OTcwfQ.jyAlemKuAWlKCQlDUQUMXp8uhOhNizVQohr01-Pp9c0
+2021-03-03 11:09:30.390  INFO 30500 --- [http-nio-8091-exec-7] c.team2.demo.security.UserRequestFilter  : chain
+2021-03-03 11:09:31.674  INFO 30500 --- [http-nio-8091-exec-8] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 11:09:31.674  INFO 30500 --- [http-nio-8091-exec-8] c.team2.demo.security.UserRequestFilter  : authorizationHeader is null
+2021-03-03 11:09:31.674  INFO 30500 --- [http-nio-8091-exec-8] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 11:09:31.675  INFO 30500 --- [http-nio-8091-exec-8] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:09:31.675  INFO 30500 --- [http-nio-8091-exec-8] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:09:31.676  INFO 30500 --- [http-nio-8091-exec-8] c.team2.demo.security.UserRequestFilter  : username is null
+2021-03-03 11:09:31.676  INFO 30500 --- [http-nio-8091-exec-8] com.team2.demo.security.JwtUtil          : validateToken
+2021-03-03 11:09:31.676  INFO 30500 --- [http-nio-8091-exec-8] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 11:09:31.676  INFO 30500 --- [http-nio-8091-exec-8] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:09:31.676  INFO 30500 --- [http-nio-8091-exec-8] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:09:31.677  INFO 30500 --- [http-nio-8091-exec-8] com.team2.demo.security.JwtUtil          : isTokenExpired
+2021-03-03 11:09:31.677  INFO 30500 --- [http-nio-8091-exec-8] com.team2.demo.security.JwtUtil          : extractExpiration
+2021-03-03 11:09:31.677  INFO 30500 --- [http-nio-8091-exec-8] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:09:31.677  INFO 30500 --- [http-nio-8091-exec-8] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:09:31.678  INFO 30500 --- [http-nio-8091-exec-8] c.team2.demo.security.UserRequestFilter  : userDetails extracted
+2021-03-03 11:09:31.678  INFO 30500 --- [http-nio-8091-exec-8] c.team2.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-03 11:09:31.679  INFO 30500 --- [http-nio-8091-exec-8] c.t.demo.controller.EmployeeController   : getAllEmployees controller
+2021-03-03 11:09:31.679  INFO 30500 --- [http-nio-8091-exec-8] com.team2.demo.service.EmployeeService   : getAllEmployees service
+2021-03-03 11:09:31.684  INFO 30500 --- [http-nio-8091-exec-8] c.team2.demo.security.UserRequestFilter  : chain
+2021-03-03 11:09:38.921  INFO 30500 --- [http-nio-8091-exec-10] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 11:09:38.922  INFO 30500 --- [http-nio-8091-exec-10] c.team2.demo.security.UserRequestFilter  : authorizationHeader is null
+2021-03-03 11:09:38.922  INFO 30500 --- [http-nio-8091-exec-10] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 11:09:38.922  INFO 30500 --- [http-nio-8091-exec-10] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:09:38.922  INFO 30500 --- [http-nio-8091-exec-10] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:09:38.923 ERROR 30500 --- [http-nio-8091-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+io.jsonwebtoken.MalformedJwtException: JWT strings must contain exactly 2 period characters. Found: 0
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:235) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541) ~[jjwt-0.9.1.jar:0.9.1]
+	at com.team2.demo.security.JwtUtil.extractAllClaims(JwtUtil.java:42) ~[classes/:na]
+	at com.team2.demo.security.JwtUtil.extractClaim(JwtUtil.java:36) ~[classes/:na]
+	at com.team2.demo.security.JwtUtil.extractUsername(JwtUtil.java:26) ~[classes/:na]
+	at com.team2.demo.security.UserRequestFilter.doFilterInternal(UserRequestFilter.java:44) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+
+2021-03-03 11:09:43.253  INFO 30500 --- [http-nio-8091-exec-2] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 11:09:43.254  INFO 30500 --- [http-nio-8091-exec-2] c.team2.demo.security.UserRequestFilter  : authorizationHeader is null
+2021-03-03 11:09:43.254  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 11:09:43.254  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:09:43.254  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:09:43.254 ERROR 30500 --- [http-nio-8091-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+io.jsonwebtoken.MalformedJwtException: JWT strings must contain exactly 2 period characters. Found: 0
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:235) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541) ~[jjwt-0.9.1.jar:0.9.1]
+	at com.team2.demo.security.JwtUtil.extractAllClaims(JwtUtil.java:42) ~[classes/:na]
+	at com.team2.demo.security.JwtUtil.extractClaim(JwtUtil.java:36) ~[classes/:na]
+	at com.team2.demo.security.JwtUtil.extractUsername(JwtUtil.java:26) ~[classes/:na]
+	at com.team2.demo.security.UserRequestFilter.doFilterInternal(UserRequestFilter.java:44) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+
+2021-03-03 11:09:48.760  INFO 30500 --- [http-nio-8091-exec-3] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 11:09:48.761  INFO 30500 --- [http-nio-8091-exec-3] c.team2.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-03 11:09:48.764  INFO 30500 --- [http-nio-8091-exec-3] c.team2.demo.controller.UserController   : login
+2021-03-03 11:09:48.764 ERROR 30500 --- [http-nio-8091-exec-3] c.team2.demo.controller.UserController   : Bad credentials
+2021-03-03 11:09:48.764  INFO 30500 --- [http-nio-8091-exec-3] c.team2.demo.controller.UserController   : user authenticated
+2021-03-03 11:09:48.764  INFO 30500 --- [http-nio-8091-exec-3] com.team2.demo.security.JwtUtil          : generateToken
+2021-03-03 11:09:48.764  INFO 30500 --- [http-nio-8091-exec-3] com.team2.demo.security.JwtUtil          : createToken
+2021-03-03 11:09:48.765  INFO 30500 --- [http-nio-8091-exec-3] com.team2.demo.security.JwtUtil          : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTYxNDc4NTk4OCwiaWF0IjoxNjE0NzQ5OTg4fQ.ICRHW88buuG8j6Eo_0mv98KCTie0Pm6OoE6qGYtAJLo
+2021-03-03 11:09:48.766  INFO 30500 --- [http-nio-8091-exec-3] c.team2.demo.security.UserRequestFilter  : chain
+2021-03-03 11:09:54.886  INFO 30500 --- [http-nio-8091-exec-5] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 11:09:54.886  INFO 30500 --- [http-nio-8091-exec-5] c.team2.demo.security.UserRequestFilter  : authorizationHeader is null
+2021-03-03 11:09:54.886  INFO 30500 --- [http-nio-8091-exec-5] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 11:09:54.887  INFO 30500 --- [http-nio-8091-exec-5] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:09:54.887  INFO 30500 --- [http-nio-8091-exec-5] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:09:54.887  INFO 30500 --- [http-nio-8091-exec-5] c.team2.demo.security.UserRequestFilter  : username is null
+2021-03-03 11:09:54.887  INFO 30500 --- [http-nio-8091-exec-5] com.team2.demo.security.JwtUtil          : validateToken
+2021-03-03 11:09:54.888  INFO 30500 --- [http-nio-8091-exec-5] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 11:09:54.888  INFO 30500 --- [http-nio-8091-exec-5] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:09:54.888  INFO 30500 --- [http-nio-8091-exec-5] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:09:54.889  INFO 30500 --- [http-nio-8091-exec-5] com.team2.demo.security.JwtUtil          : isTokenExpired
+2021-03-03 11:09:54.889  INFO 30500 --- [http-nio-8091-exec-5] com.team2.demo.security.JwtUtil          : extractExpiration
+2021-03-03 11:09:54.889  INFO 30500 --- [http-nio-8091-exec-5] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:09:54.889  INFO 30500 --- [http-nio-8091-exec-5] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:09:54.890  INFO 30500 --- [http-nio-8091-exec-5] c.team2.demo.security.UserRequestFilter  : userDetails extracted
+2021-03-03 11:09:54.890  INFO 30500 --- [http-nio-8091-exec-5] c.team2.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-03 11:09:54.892  INFO 30500 --- [http-nio-8091-exec-5] c.t.demo.controller.EmployeeController   : getAllEmployees controller
+2021-03-03 11:09:54.892  INFO 30500 --- [http-nio-8091-exec-5] com.team2.demo.service.EmployeeService   : getAllEmployees service
+2021-03-03 11:09:54.896  INFO 30500 --- [http-nio-8091-exec-5] c.team2.demo.security.UserRequestFilter  : chain
+2021-03-03 11:10:09.357  INFO 30500 --- [http-nio-8091-exec-7] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 11:10:09.357  INFO 30500 --- [http-nio-8091-exec-7] c.team2.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-03 11:10:09.360  INFO 30500 --- [http-nio-8091-exec-7] c.team2.demo.controller.UserController   : login
+2021-03-03 11:10:09.360 ERROR 30500 --- [http-nio-8091-exec-7] c.team2.demo.controller.UserController   : Bad credentials
+2021-03-03 11:10:09.360  INFO 30500 --- [http-nio-8091-exec-7] c.team2.demo.controller.UserController   : user authenticated
+2021-03-03 11:10:09.360  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : generateToken
+2021-03-03 11:10:09.360  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : createToken
+2021-03-03 11:10:09.361  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTYxNDc4NjAwOSwiaWF0IjoxNjE0NzUwMDA5fQ.RWStiSSdtfmUO4zpXU6YK43YUfhrp39ZzYDFzKAK3Ss
+2021-03-03 11:10:09.363  INFO 30500 --- [http-nio-8091-exec-7] c.team2.demo.security.UserRequestFilter  : chain
+2021-03-03 11:10:10.413  INFO 30500 --- [http-nio-8091-exec-8] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 11:10:10.413  INFO 30500 --- [http-nio-8091-exec-8] c.team2.demo.security.UserRequestFilter  : authorizationHeader is null
+2021-03-03 11:10:10.413  INFO 30500 --- [http-nio-8091-exec-8] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 11:10:10.414  INFO 30500 --- [http-nio-8091-exec-8] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:10:10.414  INFO 30500 --- [http-nio-8091-exec-8] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:10:10.415  INFO 30500 --- [http-nio-8091-exec-8] c.team2.demo.security.UserRequestFilter  : username is null
+2021-03-03 11:10:10.415  INFO 30500 --- [http-nio-8091-exec-8] com.team2.demo.security.JwtUtil          : validateToken
+2021-03-03 11:10:10.416  INFO 30500 --- [http-nio-8091-exec-8] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 11:10:10.416  INFO 30500 --- [http-nio-8091-exec-8] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:10:10.416  INFO 30500 --- [http-nio-8091-exec-8] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:10:10.417  INFO 30500 --- [http-nio-8091-exec-8] com.team2.demo.security.JwtUtil          : isTokenExpired
+2021-03-03 11:10:10.417  INFO 30500 --- [http-nio-8091-exec-8] com.team2.demo.security.JwtUtil          : extractExpiration
+2021-03-03 11:10:10.417  INFO 30500 --- [http-nio-8091-exec-8] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:10:10.417  INFO 30500 --- [http-nio-8091-exec-8] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:10:10.419  INFO 30500 --- [http-nio-8091-exec-8] c.team2.demo.security.UserRequestFilter  : userDetails extracted
+2021-03-03 11:10:10.420  INFO 30500 --- [http-nio-8091-exec-8] c.team2.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-03 11:10:10.421  INFO 30500 --- [http-nio-8091-exec-8] c.t.demo.controller.EmployeeController   : getAllEmployees controller
+2021-03-03 11:10:10.421  INFO 30500 --- [http-nio-8091-exec-8] com.team2.demo.service.EmployeeService   : getAllEmployees service
+2021-03-03 11:10:10.423  INFO 30500 --- [http-nio-8091-exec-8] c.team2.demo.security.UserRequestFilter  : chain
+2021-03-03 11:10:28.467  INFO 30500 --- [http-nio-8091-exec-10] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 11:10:28.467  INFO 30500 --- [http-nio-8091-exec-10] c.team2.demo.security.UserRequestFilter  : authorizationHeader is null
+2021-03-03 11:10:28.467  INFO 30500 --- [http-nio-8091-exec-10] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 11:10:28.467  INFO 30500 --- [http-nio-8091-exec-10] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:10:28.468  INFO 30500 --- [http-nio-8091-exec-10] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:10:28.468 ERROR 30500 --- [http-nio-8091-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+io.jsonwebtoken.MalformedJwtException: JWT strings must contain exactly 2 period characters. Found: 0
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:235) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541) ~[jjwt-0.9.1.jar:0.9.1]
+	at com.team2.demo.security.JwtUtil.extractAllClaims(JwtUtil.java:42) ~[classes/:na]
+	at com.team2.demo.security.JwtUtil.extractClaim(JwtUtil.java:36) ~[classes/:na]
+	at com.team2.demo.security.JwtUtil.extractUsername(JwtUtil.java:26) ~[classes/:na]
+	at com.team2.demo.security.UserRequestFilter.doFilterInternal(UserRequestFilter.java:44) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+
+2021-03-03 11:10:38.690  INFO 30500 --- [http-nio-8091-exec-2] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 11:10:38.691  INFO 30500 --- [http-nio-8091-exec-2] c.team2.demo.security.UserRequestFilter  : authorizationHeader is null
+2021-03-03 11:10:38.691  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 11:10:38.691  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:10:38.691  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:10:38.692 ERROR 30500 --- [http-nio-8091-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+io.jsonwebtoken.MalformedJwtException: JWT strings must contain exactly 2 period characters. Found: 0
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:235) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541) ~[jjwt-0.9.1.jar:0.9.1]
+	at com.team2.demo.security.JwtUtil.extractAllClaims(JwtUtil.java:42) ~[classes/:na]
+	at com.team2.demo.security.JwtUtil.extractClaim(JwtUtil.java:36) ~[classes/:na]
+	at com.team2.demo.security.JwtUtil.extractUsername(JwtUtil.java:26) ~[classes/:na]
+	at com.team2.demo.security.UserRequestFilter.doFilterInternal(UserRequestFilter.java:44) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+
+2021-03-03 11:10:40.452  INFO 30500 --- [http-nio-8091-exec-3] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 11:10:40.453  INFO 30500 --- [http-nio-8091-exec-3] c.team2.demo.security.UserRequestFilter  : authorizationHeader is null
+2021-03-03 11:10:40.453  INFO 30500 --- [http-nio-8091-exec-3] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 11:10:40.453  INFO 30500 --- [http-nio-8091-exec-3] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:10:40.453  INFO 30500 --- [http-nio-8091-exec-3] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:10:40.454 ERROR 30500 --- [http-nio-8091-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+io.jsonwebtoken.MalformedJwtException: JWT strings must contain exactly 2 period characters. Found: 0
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:235) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541) ~[jjwt-0.9.1.jar:0.9.1]
+	at com.team2.demo.security.JwtUtil.extractAllClaims(JwtUtil.java:42) ~[classes/:na]
+	at com.team2.demo.security.JwtUtil.extractClaim(JwtUtil.java:36) ~[classes/:na]
+	at com.team2.demo.security.JwtUtil.extractUsername(JwtUtil.java:26) ~[classes/:na]
+	at com.team2.demo.security.UserRequestFilter.doFilterInternal(UserRequestFilter.java:44) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+
+2021-03-03 11:10:50.127  INFO 30500 --- [http-nio-8091-exec-5] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 11:10:50.127  INFO 30500 --- [http-nio-8091-exec-5] c.team2.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-03 11:10:50.129  INFO 30500 --- [http-nio-8091-exec-5] c.team2.demo.controller.UserController   : login
+2021-03-03 11:10:50.129 ERROR 30500 --- [http-nio-8091-exec-5] c.team2.demo.controller.UserController   : Bad credentials
+2021-03-03 11:10:50.129  INFO 30500 --- [http-nio-8091-exec-5] c.team2.demo.controller.UserController   : user authenticated
+2021-03-03 11:10:50.129  INFO 30500 --- [http-nio-8091-exec-5] com.team2.demo.security.JwtUtil          : generateToken
+2021-03-03 11:10:50.130  INFO 30500 --- [http-nio-8091-exec-5] com.team2.demo.security.JwtUtil          : createToken
+2021-03-03 11:10:50.130  INFO 30500 --- [http-nio-8091-exec-5] com.team2.demo.security.JwtUtil          : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTYxNDc4NjA1MCwiaWF0IjoxNjE0NzUwMDUwfQ.ql5SDttmNiJ_nY01Xfyz1CAgFe9lgYnhlgPgYqZfpJc
+2021-03-03 11:10:50.132  INFO 30500 --- [http-nio-8091-exec-5] c.team2.demo.security.UserRequestFilter  : chain
+2021-03-03 11:10:54.183  INFO 30500 --- [http-nio-8091-exec-7] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 11:10:54.184  INFO 30500 --- [http-nio-8091-exec-7] c.team2.demo.security.UserRequestFilter  : authorizationHeader is null
+2021-03-03 11:10:54.184  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 11:10:54.184  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:10:54.184  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:10:54.186  INFO 30500 --- [http-nio-8091-exec-7] c.team2.demo.security.UserRequestFilter  : username is null
+2021-03-03 11:10:54.186  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : validateToken
+2021-03-03 11:10:54.186  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 11:10:54.186  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:10:54.187  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:10:54.188  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : isTokenExpired
+2021-03-03 11:10:54.188  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : extractExpiration
+2021-03-03 11:10:54.188  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:10:54.188  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:10:54.189  INFO 30500 --- [http-nio-8091-exec-7] c.team2.demo.security.UserRequestFilter  : userDetails extracted
+2021-03-03 11:10:54.189  INFO 30500 --- [http-nio-8091-exec-7] c.team2.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-03 11:10:54.190  INFO 30500 --- [http-nio-8091-exec-7] c.t.demo.controller.EmployeeController   : getAllEmployees controller
+2021-03-03 11:10:54.190  INFO 30500 --- [http-nio-8091-exec-7] com.team2.demo.service.EmployeeService   : getAllEmployees service
+2021-03-03 11:10:54.196  INFO 30500 --- [http-nio-8091-exec-7] c.team2.demo.security.UserRequestFilter  : chain
+2021-03-03 11:11:03.304  INFO 30500 --- [http-nio-8091-exec-9] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 11:11:03.304  INFO 30500 --- [http-nio-8091-exec-9] c.team2.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-03 11:11:03.306  INFO 30500 --- [http-nio-8091-exec-9] c.team2.demo.controller.UserController   : login
+2021-03-03 11:11:03.306 ERROR 30500 --- [http-nio-8091-exec-9] c.team2.demo.controller.UserController   : Bad credentials
+2021-03-03 11:11:03.306  INFO 30500 --- [http-nio-8091-exec-9] c.team2.demo.controller.UserController   : user authenticated
+2021-03-03 11:11:03.306  INFO 30500 --- [http-nio-8091-exec-9] com.team2.demo.security.JwtUtil          : generateToken
+2021-03-03 11:11:03.306  INFO 30500 --- [http-nio-8091-exec-9] com.team2.demo.security.JwtUtil          : createToken
+2021-03-03 11:11:03.307  INFO 30500 --- [http-nio-8091-exec-9] com.team2.demo.security.JwtUtil          : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTYxNDc4NjA2MywiaWF0IjoxNjE0NzUwMDYzfQ.fVdAEe0Sa9SdYF_oU5UmWJR0vuFhD-E8CEDXdqYQrnk
+2021-03-03 11:11:03.308  INFO 30500 --- [http-nio-8091-exec-9] c.team2.demo.security.UserRequestFilter  : chain
+2021-03-03 11:11:06.055  INFO 30500 --- [http-nio-8091-exec-10] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 11:11:06.055  INFO 30500 --- [http-nio-8091-exec-10] c.team2.demo.security.UserRequestFilter  : authorizationHeader is null
+2021-03-03 11:11:06.055  INFO 30500 --- [http-nio-8091-exec-10] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 11:11:06.055  INFO 30500 --- [http-nio-8091-exec-10] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:11:06.056  INFO 30500 --- [http-nio-8091-exec-10] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:11:06.057  INFO 30500 --- [http-nio-8091-exec-10] c.team2.demo.security.UserRequestFilter  : username is null
+2021-03-03 11:11:06.057  INFO 30500 --- [http-nio-8091-exec-10] com.team2.demo.security.JwtUtil          : validateToken
+2021-03-03 11:11:06.057  INFO 30500 --- [http-nio-8091-exec-10] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 11:11:06.057  INFO 30500 --- [http-nio-8091-exec-10] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:11:06.057  INFO 30500 --- [http-nio-8091-exec-10] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:11:06.058  INFO 30500 --- [http-nio-8091-exec-10] com.team2.demo.security.JwtUtil          : isTokenExpired
+2021-03-03 11:11:06.058  INFO 30500 --- [http-nio-8091-exec-10] com.team2.demo.security.JwtUtil          : extractExpiration
+2021-03-03 11:11:06.058  INFO 30500 --- [http-nio-8091-exec-10] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:11:06.059  INFO 30500 --- [http-nio-8091-exec-10] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:11:06.060  INFO 30500 --- [http-nio-8091-exec-10] c.team2.demo.security.UserRequestFilter  : userDetails extracted
+2021-03-03 11:11:06.061  INFO 30500 --- [http-nio-8091-exec-10] c.team2.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-03 11:11:06.064  INFO 30500 --- [http-nio-8091-exec-10] c.t.demo.controller.EmployeeController   : getAllEmployees controller
+2021-03-03 11:11:06.064  INFO 30500 --- [http-nio-8091-exec-10] com.team2.demo.service.EmployeeService   : getAllEmployees service
+2021-03-03 11:11:06.067  INFO 30500 --- [http-nio-8091-exec-10] c.team2.demo.security.UserRequestFilter  : chain
+2021-03-03 11:12:22.025  INFO 30500 --- [http-nio-8091-exec-2] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 11:12:22.025  INFO 30500 --- [http-nio-8091-exec-2] c.team2.demo.security.UserRequestFilter  : authorizationHeader is null
+2021-03-03 11:12:22.026  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 11:12:22.026  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:12:22.026  INFO 30500 --- [http-nio-8091-exec-2] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:12:22.027 ERROR 30500 --- [http-nio-8091-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+io.jsonwebtoken.MalformedJwtException: JWT strings must contain exactly 2 period characters. Found: 0
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:235) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541) ~[jjwt-0.9.1.jar:0.9.1]
+	at com.team2.demo.security.JwtUtil.extractAllClaims(JwtUtil.java:42) ~[classes/:na]
+	at com.team2.demo.security.JwtUtil.extractClaim(JwtUtil.java:36) ~[classes/:na]
+	at com.team2.demo.security.JwtUtil.extractUsername(JwtUtil.java:26) ~[classes/:na]
+	at com.team2.demo.security.UserRequestFilter.doFilterInternal(UserRequestFilter.java:44) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+
+2021-03-03 11:12:36.109  INFO 30500 --- [http-nio-8091-exec-4] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 11:12:36.109  INFO 30500 --- [http-nio-8091-exec-4] c.team2.demo.security.UserRequestFilter  : authorizationHeader is null
+2021-03-03 11:12:36.109  INFO 30500 --- [http-nio-8091-exec-4] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 11:12:36.109  INFO 30500 --- [http-nio-8091-exec-4] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:12:36.110  INFO 30500 --- [http-nio-8091-exec-4] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:12:36.110 ERROR 30500 --- [http-nio-8091-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+io.jsonwebtoken.MalformedJwtException: JWT strings must contain exactly 2 period characters. Found: 0
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:235) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541) ~[jjwt-0.9.1.jar:0.9.1]
+	at com.team2.demo.security.JwtUtil.extractAllClaims(JwtUtil.java:42) ~[classes/:na]
+	at com.team2.demo.security.JwtUtil.extractClaim(JwtUtil.java:36) ~[classes/:na]
+	at com.team2.demo.security.JwtUtil.extractUsername(JwtUtil.java:26) ~[classes/:na]
+	at com.team2.demo.security.UserRequestFilter.doFilterInternal(UserRequestFilter.java:44) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+
+2021-03-03 11:18:43.896  INFO 30500 --- [http-nio-8091-exec-6] c.team2.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-03 11:18:43.897  INFO 30500 --- [http-nio-8091-exec-6] c.team2.demo.security.UserRequestFilter  : authorizationHeader is null
+2021-03-03 11:18:43.897  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.security.JwtUtil          : extractUsername
+2021-03-03 11:18:43.898  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.security.JwtUtil          : extractClaim
+2021-03-03 11:18:43.898  INFO 30500 --- [http-nio-8091-exec-6] com.team2.demo.security.JwtUtil          : extractAllClaims
+2021-03-03 11:18:43.899 ERROR 30500 --- [http-nio-8091-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+io.jsonwebtoken.MalformedJwtException: JWT strings must contain exactly 2 period characters. Found: 0
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:235) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541) ~[jjwt-0.9.1.jar:0.9.1]
+	at com.team2.demo.security.JwtUtil.extractAllClaims(JwtUtil.java:42) ~[classes/:na]
+	at com.team2.demo.security.JwtUtil.extractClaim(JwtUtil.java:36) ~[classes/:na]
+	at com.team2.demo.security.JwtUtil.extractUsername(JwtUtil.java:26) ~[classes/:na]
+	at com.team2.demo.security.UserRequestFilter.doFilterInternal(UserRequestFilter.java:44) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) ~[spring-security-web-5.4.5.jar:5.4.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.4.jar:5.3.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.43.jar:9.0.43]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+
